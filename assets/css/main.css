@@ -2873,17 +2873,18 @@
 		background: url("images/overlay.png"), url("../../images/trial3.jpg");
 		background-size: 640px 960px, cover;
 		background-attachment: fixed, fixed;
-		/*background-position: top left, bottom center;*/
+		background-position: center;
 		/*background-repeat: repeat, no-repeat;*/
 	}
 
 /* One */
 
 	#one {
-		background: url("../../images/trial7.jpg");
-		   background-repeat:no-repeat;
-    background-size:100vh;
-		/*background-position: top left, center center;*/
+		
+		background: url("../../images/trial8.jpg");
+		background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center center;
 	}
 
 /* Two */
