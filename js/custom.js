@@ -48,6 +48,23 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(item);
     });
 
+    // Special animation for web presence section
+    const webPresenceItems = document.querySelectorAll('#web-presence .resume-item');
+    webPresenceItems.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.1}s`;
+    });
+
+    // Impact section animations
+    const impactItems = document.querySelectorAll('#impact .impact-item');
+    impactItems.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        
+        setTimeout(() => {
+            observer.observe(item);
+        }, index * 50);
+    });
+
     // Add active class to current nav item based on scroll position
     window.addEventListener('scroll', function() {
         const sections = document.querySelectorAll('.resume-section');

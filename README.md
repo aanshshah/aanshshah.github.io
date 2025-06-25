@@ -13,6 +13,9 @@ This is my personal portfolio website built using a customized Bootstrap templat
 - Teaching and mentorship experience
 - Technical skills and expertise
 - Educational background from Brown University
+- Professional impact and recognition across various platforms
+- Statistics dashboard showing key achievements (publications, students taught, years of service)
+- Comprehensive coverage including entrepreneurship, community service, and government experience
 
 ## Technical Stack
 
@@ -30,6 +33,7 @@ This is my personal portfolio website built using a customized Bootstrap templat
 - 🔍 SEO optimized with meta tags
 - 📄 Downloadable resume versions
 - 🌙 Clean, professional aesthetic
+- 🏆 Professional impact section highlighting achievements
 
 ## Customizations
 
@@ -40,6 +44,15 @@ The site includes several custom enhancements:
 - **Animations**: Smooth scroll, hover effects, and fade-in animations
 - **Navigation**: Fixed sidebar with active section highlighting
 - **Interactive Elements**: Skill icons with hover effects, card-style resume items
+- **Impact Section**: Modern layout with icons, badges, and categorized achievements
+  - Speaking & Conferences (Apache Flink Forward, Brown CS Symposium)
+  - Entrepreneurial & Startup Experience (EQHire, MSBAI Techstars '20, VR Development)
+  - Publications & Research Community (3 publications, research profiles)
+  - Teaching & Community Leadership (Inspirit AI, Brown Political Review)
+  - Innovation & Open Source (Stop Harassment Chrome Extension)
+  - Community Service & Social Impact (GameCraft Charity, RI Urban Debate League)
+  - Government & Policy Experience (NY State Assembly internships)
+  - Awards & Honors (Intel ISEF, National AP Scholar, NYS Debate Finalist)
 
 ## Structure
 
@@ -84,6 +97,8 @@ To run the site locally:
 
 - **Profile Information**: Edit the "About" section in `index.html`
 - **Work Experience**: Update the "Experience" section in `index.html`
+- **Research/Publications**: Update the "Research" section in `index.html`
+- **Impact & Recognition**: Update the "Impact" section in `index.html`
 - **Resume PDFs**: Replace the PDF files and update links in `index.html`
 - **Styling**: Modify `css/custom.css` for visual changes
 - **Functionality**: Edit `js/custom.js` for behavioral changes
