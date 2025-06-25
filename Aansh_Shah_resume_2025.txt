@@ -1,0 +1,34 @@
+AANSH SHAH
+aansh.shah@gmail.com | 516-661-8792 | https://www.linkedin.com/in/aansh-shah
+
+SUMMARY
+Security-focused Software Engineer specializing in ML infrastructure and distributed systems. Delivered $4M+ in value by architecting enterprise platforms that reduced operational complexity by 50-97% across authentication, model deployment, and observability. Proven leader driving cross-functional initiatives across 40+ teams with zero security incidents.
+
+PROFESSIONAL EXPERIENCE
+
+Software Development Engineer, Amazon (Alexa, AGI)
+Cambridge, MA | July 2020 – Present
+• Architected OpenTelemetry-based observability platform that drove $3.2M quarterly revenue improvement through enhanced conversion rates. Reduced customer feedback processing from 8 hours to 3 minutes (97% improvement).
+• Transformed data processing infrastructure with Rust-based compaction service, cutting costs by 63% ($1.2M annual savings). Reduced S3 throttling by 90% and automated recovery workflows from 5 hours to 5 minutes.
+• Designed enterprise IAM platform processing 8M+ daily authentication requests at 99.999% availability. Reduced dataset provisioning from 5 days to 3 hours through OAuth workflows, enabling 40+ engineering teams.
+• Streamlined ML model release cycle with Git-based artifact tracking, reducing deployment time from 3 weeks to under 2 weeks. Eliminated tribal knowledge dependencies across Product, Science, MLE, and SDE teams.
+• Led security audits for 15 services processing personally identifiable information (PII) with zero high-severity findings. Created reusable frameworks that accelerated review cycles by 45% and reduced security incidents by 28%.
+• Developed privacy-preserving Continual Learning Platform with federated learning, reducing Voice Recognition model onboarding by 30% while ensuring compliance through 24-hour audio deletion.
+
+Founder and Lead Developer, EQHire
+Providence, RI | Jan 2017 – Dec 2017
+• Founded NLP-based candidate screening platform processing 1000+ candidates monthly. Built telephony SDK reducing partner integration from weeks to days, improving candidate quality by 40%.
+
+EDUCATION
+Master of Science in Computer Science | Brown University
+Bachelor of Science in Applied Mathematics and Computer Science | Brown University
+
+SELECTED PUBLICATIONS & TALKS
+• First Author: "Comparing Global with Disease-specific Machine-learned Readmission Prediction Models" - AMIA Clinical Informatics, 2020. Improved ICU readmission predictions using XGBoost on MIMIC-III dataset
+• Conference Speaker: Apache Flink Forward 2023 - "Scaling Real-time Stream Processing for ML Pipelines"
+• Co-author: "Graph Embedding Priors for Multi-task Deep Reinforcement Learning" - NeurIPS KR2ML 2020
+
+TECHNICAL SKILLS
+• AWS: EC2, S3, Lambda, DynamoDB, Kinesis, Apache Flink, Fargate, ECS, EKS, Spark, CloudFormation, CDK
+• Programming Languages: Python, TypeScript, Java, Rust
+• Security & ML: OAuth 2.0, RBAC, Federated Learning, OpenTelemetry, DevSecOps practices, Git
