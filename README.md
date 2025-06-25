@@ -1,71 +1,114 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+# Aansh Shah - Personal Portfolio Website
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+Welcome to my personal portfolio website repository. This site showcases my professional experience, research, and technical skills.
 
-## Preview
+🌐 **Live Site**: [https://aanshshah.com](https://aanshshah.com)
 
-[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
+## Overview
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+This is my personal portfolio website built using a customized Bootstrap template. The site features:
 
-## Status
+- Professional experience at Amazon AGI and other organizations
+- Research publications and conference talks
+- Teaching and mentorship experience
+- Technical skills and expertise
+- Educational background from Brown University
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
+## Technical Stack
 
-## Download and Installation
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Framework**: Bootstrap 4
+- **Fonts**: Inter, Font Awesome
+- **Icons**: Devicons for technology stack visualization
+- **Hosting**: GitHub Pages with custom domain
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
-* Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+## Features
 
-## Usage
+- 📱 Fully responsive design
+- 🎨 Modern visual enhancements with smooth animations
+- ⚡ Fast loading and optimized performance
+- 🔍 SEO optimized with meta tags
+- 📄 Downloadable resume versions
+- 🌙 Clean, professional aesthetic
 
-### Basic Usage
+## Customizations
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+The site includes several custom enhancements:
 
-### Advanced Usage
+- **Visual Design**: Modern color scheme with blue accent colors (#2563eb)
+- **Typography**: Enhanced with Inter font for better readability
+- **Animations**: Smooth scroll, hover effects, and fade-in animations
+- **Navigation**: Fixed sidebar with active section highlighting
+- **Interactive Elements**: Skill icons with hover effects, card-style resume items
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+## Structure
 
-#### Gulp Tasks
+```
+aanshshah.github.io/
+├── index.html          # Main website file
+├── css/
+│   ├── resume.min.css  # Base template styles
+│   └── custom.css      # Custom style enhancements
+├── js/
+│   ├── resume.min.js   # Base template functionality
+│   └── custom.js       # Custom JavaScript enhancements
+├── img/
+│   └── profile.jpg     # Profile photo
+├── vendor/             # Third-party libraries (Bootstrap, jQuery, etc.)
+├── *.pdf              # Resume files
+└── CNAME              # Custom domain configuration
+```
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
+## Local Development
 
-## Bugs and Issues
+To run the site locally:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aanshshah/aanshshah.github.io.git
+   cd aanshshah.github.io
+   ```
 
-## Custom Builds
+2. Open `index.html` in your browser or use a local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx http-server
+   ```
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+3. Navigate to `http://localhost:8000`
 
-## About
+## Updating Content
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+- **Profile Information**: Edit the "About" section in `index.html`
+- **Work Experience**: Update the "Experience" section in `index.html`
+- **Resume PDFs**: Replace the PDF files and update links in `index.html`
+- **Styling**: Modify `css/custom.css` for visual changes
+- **Functionality**: Edit `js/custom.js` for behavioral changes
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+## Deployment
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+The site is automatically deployed via GitHub Pages. Any push to the `main` branch will update the live site at [aanshshah.com](https://aanshshah.com).
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Credits
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+- Original template: [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+- Icons: [Devicons](https://devicon.dev/) and [Font Awesome](https://fontawesome.com/)
+- Fonts: [Inter](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
 
-## Copyright and License
+## License
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+This project uses the MIT License for the original Bootstrap template. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Feel free to reach out:
+- Email: aansh.shah@gmail.com
+- LinkedIn: [linkedin.com/in/aansh-shah](https://www.linkedin.com/in/aansh-shah/)
+- GitHub: [github.com/aanshshah](https://github.com/aanshshah)
+
+---
+
+*Last updated: June 2025*
