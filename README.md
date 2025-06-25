@@ -69,25 +69,3 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages using GitHub Actions. Any push to the main/master branch will trigger a deployment.
-
-### GitHub Actions Workflows
-
-Two deployment workflows are available:
-
-1. **Primary Workflow** (`deploy.yml`) - Uses GitHub's official Pages deployment
-2. **Alternative Workflow** (`deploy-alternative.yml`) - Uses traditional gh-pages branch deployment
-
-See `.github/workflows/README.md` for detailed deployment instructions.
-
-### Manual Deployment
-
-To deploy manually:
-1. Go to the Actions tab in your repository
-2. Select a deployment workflow
-3. Click "Run workflow"
-
-The site is deployed to: https://aanshshah.com
